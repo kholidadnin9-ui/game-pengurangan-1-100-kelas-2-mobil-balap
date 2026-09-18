@@ -1,0 +1,340 @@
+@media (min-width: 1500px) {
+  .main-container { padding-top: 39px; }
+  .page-heading { margin-bottom: 29px; }
+  .car-showcase { min-height: 444px; }
+  .car-card { height: 177px; }
+  .car-card > img { height: 177px; }
+  .car-collection { margin-top: 32px; }
+}
+
+@media (max-width: 1180px) {
+  .header-inner { padding: 0 32px; gap: 18px; }
+  .main-container { padding-left: 32px; padding-right: 32px; }
+  .main-nav { gap: 18px; }
+  .nav-item { font-size: 11px; gap: 6px; }
+  .header-controls { gap: 13px; }
+  .currency-group { gap: 13px; }
+  .brand-name { font-size: 27px; }
+  .brand-tagline { font-size: 6px; letter-spacing: 1.2px; }
+  .brand-flag { width: 34px; height: 34px; }
+  .garage-stage { grid-template-columns: minmax(0, 1fr) 283px; gap: 21px; }
+  .mission-panel { padding: 18px 18px 14px; }
+  .car-name-header { left: 18px; }
+  .car-showcase { min-height: 397px; }
+  .hero-car-image { left: -5%; width: 111%; object-position: 50% 70%; }
+  .showcase-status { right: 5px; font-size: 6px; }
+  .car-grid { gap: 10px; }
+  .car-card { height: 151px; }
+  .car-card > img { height: 153px; top: -15px; }
+  .car-card-info { left: 10px; right: 10px; }
+  .car-card-info h3 { font-size: 18px; }
+  .car-card-info > div > span { font-size: 5px; }
+  .level-grid { gap: 12px; }
+  .level-tile { padding-left: 15px; padding-right: 15px; }
+  .level-tile h2 { font-size: 20px; }
+  .level-tile-state { margin: 0 -15px; padding: 0 15px; font-size: 6px; }
+}
+
+@media (max-width: 960px) {
+  .site-header { height: 77px; }
+  .header-inner { padding: 0 24px; gap: 18px; }
+  .main-container { padding-left: 24px; padding-right: 24px; }
+  .main-nav { gap: 17px; }
+  .nav-item > svg { display: none; }
+  .header-controls { gap: 10px; }
+  .utility-controls { gap: 6px; }
+  .icon-button { width: 31px; height: 31px; }
+  .header-divider { display: none; }
+  .currency-group { gap: 12px; }
+  .currency { font-size: 11px; gap: 5px; min-width: 27px; }
+  .currency .coin-symbol { width: 18px; height: 18px; font-size: 10px; }
+  .currency > svg { width: 20px; }
+  .page-heading h1 { font-size: 35px; }
+  .page-heading p { font-size: 10px; }
+  .learning-label { gap: 7px; padding: 10px; font-size: 7px; }
+  .learning-label > svg { width: 15px; }
+  .garage-stage { grid-template-columns: minmax(0, 1fr) 268px; gap: 16px; }
+  .car-name-header { left: 13px; }
+  .car-name-header h2 { font-size: 39px; }
+  .car-name-header p { font-size: 9px; max-width: 230px; line-height: 1.7; }
+  .showcase-status { top: 109px; left: 15px; right: auto; }
+  .car-arrow { width: 26px; height: 39px; }
+  .hero-car-image { top: 24px; left: -13%; width: 126%; height: 97%; object-fit: contain; object-position: 50% 63%; }
+  .car-card { height: 140px; }
+  .car-card > img { height: 140px; top: -10px; }
+  .car-card-info > div > span { display: none; }
+  .car-card-info p { font-size: 7px; gap: 3px; }
+  .garage-footer > p { font-size: 8px; }
+  .keyboard-hint { font-size: 7px; }
+  .level-tile { padding-left: 12px; padding-right: 12px; }
+  .level-tile h2 { min-height: 49px; font-size: 22px; line-height: 1.15; }
+  .level-tile-state { margin: 0 -12px; padding: 0 12px; min-height: 44px; line-height: 1.6; }
+  .level-tile-state > svg { display: none; }
+  .journey-selected p { max-width: 420px; line-height: 1.8; }
+}
+
+@media (max-width: 760px) {
+  .site-header { height: 111px; }
+  .header-inner { position: relative; height: 66px; padding: 0 22px; flex-wrap: wrap; }
+  .brand-name { font-size: 27px; }
+  .brand-flag { width: 34px; }
+  .brand-tagline { display: none; }
+  .main-nav { position: absolute; height: 45px; left: 22px; right: 22px; top: 66px; gap: 0; justify-content: space-between; }
+  .nav-item { padding: 0 15px; font-size: 11px; }
+  .nav-item > svg { display: block; width: 14px; }
+  .header-controls { margin-left: auto; gap: 18px; }
+  .currency-group { gap: 18px; }
+  .main-container { padding: 25px 22px 0; }
+  .page-heading { align-items: flex-start; margin-bottom: 12px; }
+  .page-heading h1 { font-size: 35px; }
+  .page-heading .eyebrow { font-size: 7px; letter-spacing: 1.5px; }
+  .page-heading p { font-size: 10px; }
+  .learning-label { align-self: flex-start; padding: 8px; font-size: 7px; margin-top: 20px; }
+  .learning-label .grade-label, .learning-label > i { display: none; }
+  .garage-stage { grid-template-columns: minmax(0, 1fr) 245px; gap: 8px; }
+  .mission-panel { margin-top: 12px; padding: 17px 15px 13px; }
+  .mission-title-row { margin-top: 17px; }
+  .mission-name { font-size: 27px; }
+  .mission-details { margin: 14px 0; }
+  .mission-details > div, .mission-details strong { font-size: 9px; }
+  .car-name-header { top: 22px; left: 9px; }
+  .car-name-header h2 { font-size: 37px; }
+  .car-series { font-size: 6px; gap: 7px; }
+  .car-name-header p { font-size: 8px; max-width: 180px; }
+  .showcase-status { left: 10px; top: 123px; }
+  .hero-car-image { left: -24%; width: 145%; top: 37px; height: 99%; object-position: 51% 66%; }
+  .car-arrow { top: 66%; width: 24px; height: 34px; }
+  .car-arrow > svg { width: 18px; }
+  .car-pagination { bottom: 9px; gap: 4px; }
+  .car-pagination > button { width: 15px; }
+  .car-pagination > button.active { width: 25px; }
+  .start-button { font-size: 22px; padding: 8px 12px; gap: 8px; }
+  .start-button > svg:first-child { width: 25px; }
+  .car-collection { margin-top: 20px; }
+  .car-grid { gap: 9px; overflow-x: auto; margin-right: -22px; padding-right: 22px; padding-bottom: 12px; grid-template-columns: repeat(5, 162px); scrollbar-color: #355869 #101e2b; scrollbar-width: thin; }
+  .car-card, .car-card > img { height: 145px; }
+  .car-card-info > div > span { display: block; }
+  .garage-footer { margin-top: 12px; padding: 17px 0 22px; }
+  .garage-footer > p { font-size: 8px; }
+  .keyboard-hint { display: none; }
+  .journey-overview { margin-top: 29px; }
+  .journey-board { padding-top: 23px; padding-bottom: 35px; }
+  .level-grid { grid-template-columns: repeat(5, 167px); overflow-x: auto; padding: 5px 22px 34px 0; margin-right: -22px; scrollbar-width: thin; scrollbar-color: #355869 #101e2b; }
+  .level-tile h2 { font-size: 23px; }
+  .level-tile-state { font-size: 7px; }
+  .journey-selected { padding: 25px 0; }
+  .journey-selected > button { min-width: 202px; font-size: 18px; padding: 12px 17px; }
+  .journey-selected p { font-size: 10px; }
+  .journey-selected h2 { font-size: 31px; }
+  .journey-footer { align-items: flex-start; padding-bottom: 30px; }
+  .journey-footer > p { max-width: 350px; font-size: 9px; }
+  .journey-footer > button { font-size: 9px; }
+  .race-page { padding-top: 22px; }
+  .race-track { height: 223px; }
+  .road-surface { top: 85px; }
+  .city-skyline { top: 3px; }
+  .finish-marker { top: 89px; }
+  .rival-position { top: 88px; width: 98px; }
+  .player-position { top: 154px; width: 117px; }
+  .nitro-flame { top: 28px; left: -26px; width: 33px; }
+  .question-area { margin-top: 23px; }
+  .equation { font-size: 69px; }
+  .answer-feedback { gap: 16px; min-height: 130px; }
+  .feedback-heading > strong { font-size: 11px; }
+  .feedback-content p { font-size: 9px; }
+  .next-question-button { font-size: 15px; padding: 10px 13px; }
+  .race-footer > span { display: none; }
+  .race-footer { justify-content: center; }
+  .result-page { padding-bottom: 30px; }
+  .result-main { max-width: 560px; }
+}
+
+@media (max-width: 590px) {
+  .header-inner { padding: 0 18px; gap: 10px; }
+  .brand { gap: 5px; }
+  .brand-name { font-size: 26px; gap: 3px; letter-spacing: .7px; }
+  .brand-credit { font-size: 8px; }
+  .brand-flag { width: 31px; height: 34px; }
+  .brand-name > i { width: 3px; height: 17px; }
+  .header-controls { gap: 12px; }
+  .utility-controls { gap: 5px; }
+  .utility-controls .icon-button { width: 29px; height: 29px; }
+  .utility-controls svg { width: 15px; }
+  .currency-group { gap: 11px; }
+  .currency { font-size: 10px; gap: 4px; min-width: 21px; }
+  .currency .coin-symbol { width: 16px; height: 16px; font-size: 9px; }
+  .currency > svg { width: 18px; }
+  .main-nav { left: 18px; right: 18px; }
+  .nav-item { padding: 0 10px; gap: 6px; }
+  .main-container { padding-left: 20px; padding-right: 20px; padding-top: 25px; }
+  .page-heading { display: block; margin-bottom: 12px; }
+  .page-heading h1 { font-size: 37px; }
+  .page-heading p { margin-top: 8px; font-size: 10px; }
+  .learning-label { margin-top: 14px; padding: 0; border: 0; background: none; gap: 7px; font-size: 7px; }
+  .learning-label > svg { width: 13px; height: 13px; }
+  .learning-label .grade-label { display: block; }
+  .learning-label > i { display: block; height: 10px; margin: 0 4px; }
+  .garage-stage { display: flex; flex-direction: column; gap: 15px; }
+  .car-showcase { min-height: 302px; width: 100%; }
+  .hero-car-image { left: -6%; top: 7px; width: 112%; height: 100%; object-position: center 65%; }
+  .car-name-header { left: 7px; top: 13px; }
+  .car-series { font-size: 6px; letter-spacing: 1.5px; }
+  .car-name-header h2 { font-size: 37px; margin-top: 5px; }
+  .car-name-header p { font-size: 8px; margin-top: 6px; max-width: 240px; }
+  .name-stripes { font-size: 22px; }
+  .showcase-status { left: auto; top: 20px; right: 5px; font-size: 6px; letter-spacing: .7px; gap: 3px; }
+  .showcase-status > svg { width: 11px; }
+  .car-arrow { top: 56%; width: 25px; height: 36px; }
+  .car-pagination { bottom: 1px; }
+  .car-pagination > button { width: 20px; }
+  .car-pagination > button.active { width: 32px; }
+  .mission-panel { width: 100%; margin-top: 0; padding: 19px; display: grid; grid-template-columns: 1fr 1fr; column-gap: 23px; }
+  .mission-caption { grid-column: 1 / -1; font-size: 8px; margin-bottom: 17px; }
+  .mission-title-row { grid-column: 1; margin-top: 0; }
+  .mission-name { grid-column: 1; font-size: 26px; align-self: start; margin-top: 3px; }
+  .mission-description { grid-column: 1; font-size: 9px; }
+  .mission-details { grid-column: 2; grid-row: 2 / 5; padding: 2px 0 1px 15px; border-top: 0; border-bottom: 0; border-left: 1px solid #2d4352; margin: 0; gap: 13px; }
+  .mission-details > div { gap: 5px; font-size: 8px; }
+  .mission-details > div > svg { width: 13px; height: 13px; }
+  .mission-details .coin-symbol { width: 13px; height: 13px; font-size: 7px; }
+  .mission-details strong { font-size: 8px; white-space: nowrap; }
+  .mission-fraction { font-size: 10px; }
+  .level-selector-heading { grid-column: 1 / -1; border-top: 1px solid #2b3e4b; padding-top: 17px; margin-top: 17px; }
+  .level-selector { grid-column: 1 / -1; gap: 9px; }
+  .level-select-button { height: 37px; }
+  .level-select-button > svg { right: 7px; bottom: 6px; }
+  .start-button { grid-column: 1 / -1; margin-top: 16px; min-height: 49px; padding: 8px 18px; font-size: 25px; justify-content: flex-start; }
+  .start-button > svg:first-child { width: 30px; height: 30px; }
+  .start-button > span, .start-button > svg:last-child { margin-left: auto; }
+  .mission-footnote { grid-column: 1 / -1; margin-top: 11px; font-size: 8px; }
+  .car-collection { margin-top: 27px; }
+  .section-heading { margin-bottom: 13px; }
+  .section-heading h2 { font-size: 10px; letter-spacing: 1.4px; }
+  .section-heading > p { font-size: 8px; }
+  .car-grid { margin-right: -20px; padding-right: 20px; grid-template-columns: repeat(5, 177px); gap: 11px; }
+  .car-card { height: 157px; }
+  .car-card > img { height: 159px; top: -12px; }
+  .car-card-info h3 { font-size: 21px; }
+  .car-card-info p { font-size: 8px; }
+  .garage-footer { margin-top: 10px; padding: 15px 0 24px; }
+  .garage-footer > p { font-size: 8px; }
+  .journey-overview { margin-top: 30px; }
+  .journey-overview > span { font-size: 8px; gap: 6px; letter-spacing: .7px; }
+  .journey-overview > p { font-size: 8px; }
+  .journey-board { padding-bottom: 18px; }
+  .level-grid { grid-template-columns: repeat(5, 175px); margin-right: -20px; padding-right: 20px; }
+  .journey-selected { flex-direction: column; align-items: stretch; gap: 21px; padding: 24px 0; }
+  .journey-selected > button { min-height: 50px; font-size: 22px; }
+  .journey-selected p { max-width: 330px; }
+  .journey-footer { flex-direction: column; align-items: flex-start; gap: 15px; }
+  .race-heading { margin-bottom: 19px; }
+  .race-heading-left { gap: 10px; }
+  .race-heading-left .back-button { width: 29px; height: 33px; }
+  .race-heading h1 { font-size: 26px; }
+  .race-heading .eyebrow { font-size: 6px; letter-spacing: 1px; }
+  .race-hud { gap: 12px; }
+  .race-hud > div > span { font-size: 6px; letter-spacing: .7px; }
+  .race-hud > div:first-child > span { max-width: 57px; line-height: 1.5; }
+  .race-hud strong { font-size: 23px; gap: 4px; }
+  .race-hud strong > svg { width: 14px; }
+  .race-hud small { font-size: 12px; }
+  .race-hud > i { height: 31px; }
+  .race-track { margin: 0 -20px; width: calc(100% + 40px); border-left: 0; border-right: 0; border-radius: 0; height: 228px; }
+  .circuit-label { font-size: 6px; left: 20px; top: 17px; letter-spacing: 1px; }
+  .track-moon { right: 13%; }
+  .rival-position { top: 97px; width: 85px; }
+  .player-position { top: 171px; width: 96px; }
+  .road-lane-line { top: 68px; }
+  .racer-label { font-size: 5px; }
+  .player-position .racer-label { font-size: 6px; }
+  .nitro-flame { top: 23px; width: 28px; height: 9px; left: -21px; }
+  .finish-marker { right: 5.2%; width: 18px; top: 90px; }
+  .finish-marker > div { background-size: 12px 12px; }
+  .answer-milestones { gap: 6px; padding-top: 17px; }
+  .milestone { width: 24px; height: 20px; font-size: 7px; }
+  .question-area { margin-top: 26px; }
+  .question-instruction { font-size: 8px; letter-spacing: 1.6px; }
+  .equation { font-size: 66px; gap: 19px; margin: 13px 0 25px; }
+  .answer-options { gap: 10px; }
+  .answer-button { min-height: 83px; }
+  .answer-button > strong { font-size: 35px; }
+  .answer-shortcut { left: 7px; top: 7px; width: 15px; height: 15px; font-size: 7px; }
+  .answer-icon { width: 17px; height: 17px; right: 7px; top: 16px; }
+  .answer-feedback { flex-direction: column; align-items: stretch; gap: 17px; padding: 20px 0 21px; min-height: 152px; }
+  .feedback-heading > strong { font-size: 11px; }
+  .feedback-heading > svg { width: 16px; }
+  .feedback-content p { font-size: 10px; }
+  .next-question-button { min-height: 47px; font-size: 19px; }
+  .unanswered-hint { margin: 9px 0 35px; font-size: 9px; }
+  .race-footer { padding-top: 18px; padding-bottom: 24px; }
+  .result-page { padding-top: 28px; padding-bottom: 30px; }
+  .result-main > .eyebrow { font-size: 7px; }
+  .result-trophy { height: 118px; }
+  .result-main h1 { font-size: 40px; }
+  .result-description { font-size: 10px; max-width: 320px; margin-bottom: 23px; }
+  .result-stats { padding: 18px 0; }
+  .result-stats > div > span { font-size: 6px; letter-spacing: .6px; }
+  .result-stats strong { font-size: 30px; gap: 5px; }
+  .result-stats small { font-size: 17px; }
+  .result-stats .coin-symbol { width: 18px; height: 18px; font-size: 11px; }
+  .result-stats .cyan-text > svg { width: 20px; }
+  .unlock-notice { gap: 11px; padding-right: 12px; }
+  .unlock-notice > img { width: 95px; height: 88px; }
+  .unlock-notice strong { font-size: 19px; letter-spacing: .2px; }
+  .unlock-eyebrow { font-size: 6px; letter-spacing: .5px; }
+  .unlock-notice small { font-size: 8px; }
+  .unlock-notice > svg { width: 17px; }
+  .result-actions { gap: 9px; }
+  .result-actions .primary-button { font-size: 17px; padding: 10px 13px; }
+  .result-actions .secondary-button { font-size: 15px; padding: 10px 14px; gap: 7px; }
+  .result-actions .secondary-button > svg { width: 14px; }
+  .review-row { gap: 10px; flex-wrap: wrap; padding: 16px 0; }
+  .review-number { font-size: 16px; }
+  .review-explanation { min-width: 50%; }
+  .review-explanation > strong { font-size: 23px; }
+  .review-explanation > p { font-size: 9px; }
+  .review-answer { font-size: 8px; }
+  .review-row > svg { width: 15px; }
+  .modal-backdrop { padding: 16px; }
+  .modal-panel { padding: 29px 24px 25px; max-height: calc(100svh - 32px); }
+  .modal-title { font-size: 31px; }
+  .modal-description { font-size: 10px; }
+  .how-to-steps { gap: 19px; }
+  .how-to-steps h3 { font-size: 11px; }
+  .how-to-steps p { font-size: 9px; }
+  .step-number { font-size: 25px; }
+  .help-example { padding: 15px; }
+  .help-example > span { font-size: 26px; }
+  .help-example > div { gap: 5px; }
+  .help-example > div > span { min-width: 39px; height: 34px; font-size: 20px; }
+  .star-guide { gap: 8px; }
+  .star-guide > span { font-size: 7px; gap: 2px; }
+  .star-guide svg { width: 10px; height: 10px; }
+  .help-reward-note { font-size: 7px; }
+  .toast { padding: 13px 14px; gap: 10px; bottom: 18px; }
+  .toast > p { font-size: 10px; }
+}
+
+@media (max-width: 389px) {
+  .header-inner { padding-left: 14px; padding-right: 14px; }
+  .brand-name { font-size: 23px; }
+  .brand-flag { width: 27px; }
+  .header-controls { gap: 9px; }
+  .currency-group { gap: 7px; }
+  .utility-controls .icon-button { width: 27px; height: 27px; }
+  .main-container { padding-left: 17px; padding-right: 17px; }
+  .mission-panel { padding: 17px; column-gap: 16px; }
+  .mission-details { padding-left: 10px; }
+  .mission-details > div, .mission-details strong { font-size: 7px; }
+  .mission-description { font-size: 8px; }
+  .mission-name { font-size: 24px; }
+  .showcase-status { font-size: 5px; }
+  .race-track { margin: 0 -17px; width: calc(100% + 34px); }
+  .race-heading h1 { font-size: 23px; }
+  .race-hud { gap: 8px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
+}
+.reduce-motion *, .reduce-motion *::before, .reduce-motion *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
